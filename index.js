@@ -22,7 +22,7 @@ function logDriversByHometown(drivers, hometown){
 
 function driversByName(drivers){
   const callback = function(driver1, driver2){
-    driver1.name.localeCompare(driver2.name)
+    return driver1.name.localeCompare(driver2.name)
   }
   arr = drivers.sort(callback);
   debugger
