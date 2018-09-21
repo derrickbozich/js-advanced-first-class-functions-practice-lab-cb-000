@@ -12,3 +12,7 @@ function logDriversByHometown(drivers, hometown){
   }
   drivers.forEach(callback);
 }
+
+function driversByRevenue(drivers){
+  return drivers.sort();
+}
