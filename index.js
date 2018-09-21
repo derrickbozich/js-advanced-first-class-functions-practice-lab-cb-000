@@ -24,6 +24,5 @@ function driversByName(drivers){
   const callback = function(driver1, driver2){
     return driver1.name.localeCompare(driver2.name)
   }
-  arr = drivers.sort(callback);
-  debugger
+  return drivers.sort(callback);
 }
