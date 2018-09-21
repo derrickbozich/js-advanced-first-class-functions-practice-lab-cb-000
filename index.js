@@ -31,5 +31,5 @@ function totalRevenue(drivers){
   const callback = function(agg, el){
     return agg + el.price
   }
-  drivers.reduce(callback);
+  drivers.reduce(callback, 0);
 }
