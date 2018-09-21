@@ -7,7 +7,7 @@ function logDriverNames(drivers){
 function logDriversByHometown(drivers, hometown){
   const callback = function(driver){
     if (driver.hometown == hometown) {
-      console.log(driver.hometown);
+      console.log(driver.name);
     }
   }
   drivers.forEach(callback);
