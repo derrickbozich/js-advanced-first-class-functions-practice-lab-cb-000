@@ -14,5 +14,8 @@ function logDriversByHometown(drivers, hometown){
 }
 
 function driversByRevenue(drivers){
-  return drivers.sort();
+  const callback = function(driver1, driver2){
+    
+  }
+  return drivers.sort(callback);
 }
