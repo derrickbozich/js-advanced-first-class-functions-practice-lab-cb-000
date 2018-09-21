@@ -13,9 +13,9 @@ function logDriversByHometown(drivers, hometown){
   drivers.forEach(callback);
 }
 
-function driversByRevenue(drivers){
-  const callback = function(driver1, driver2){
-    return driver1.revenue - driver2.revenue;
-  }
-  return drivers.sort(callback);
-}
+// function driversByRevenue(drivers){
+//   const callback = function(driver1, driver2){
+//     return driver1.revenue - driver2.revenue;
+//   }
+//   return drivers.sort(callback);
+// }
