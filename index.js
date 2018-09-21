@@ -21,8 +21,9 @@ function logDriversByHometown(drivers, hometown){
 // }
 
 function driversByName(drivers){
+  newArray = drivers;
   const callback = function(driver1, driver2){
     return driver1.name.localeCompare(driver2.name)
   }
-  return drivers.sort(callback);
+  return newArray.sort(callback);
 }
