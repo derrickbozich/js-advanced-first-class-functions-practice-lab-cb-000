@@ -33,3 +33,10 @@ function totalRevenue(drivers){
   }
   return drivers.reduce(callback, 0);
 }
+
+function averageRevenue(drivers){
+  const callback = function(agg, el, i){
+    return agg + el.revenue
+  }
+  return drivers.reduce(callback, 0)/drivers.length;
+}
