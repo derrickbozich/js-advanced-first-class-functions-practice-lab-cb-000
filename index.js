@@ -19,3 +19,9 @@ function logDriversByHometown(drivers, hometown){
 //   }
 //   return drivers.sort(callback);
 // }
+
+function driversByName(drivers){
+  const callback = function(driver1, driver2){
+    driver1.localeCompare(driver2)
+  }
+}
