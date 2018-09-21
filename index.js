@@ -26,3 +26,7 @@ function driversByName(drivers){
   }
   return drivers.slice().sort(callback);
 }
+
+function totalRevenue(drivers){
+  
+}
